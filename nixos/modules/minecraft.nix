@@ -41,7 +41,6 @@
           gamemode = "creative";
           difficulty = "normal";
           level-type = "minecraft\:flat";
-          spawn-monsters = false;
           generate-structures = false;
         };
       };
