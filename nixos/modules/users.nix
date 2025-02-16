@@ -5,7 +5,6 @@
     strawberries = {
       isNormalUser = true;
       extraGroups = [ "wheel" ];
-      initialPassword = "4587";
     };
   };
 

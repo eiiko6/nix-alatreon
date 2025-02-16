@@ -7,7 +7,6 @@
     ./modules/networking.nix
     ./modules/users.nix
     ./modules/services.nix
-    ./modules/fonts.nix
     ./modules/minecraft.nix
   ];
 

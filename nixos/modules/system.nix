@@ -29,7 +29,6 @@
     neovim
     networkmanagerapplet
     nodejs_22
-    python39
     pywal
     rust-analyzer
     starship
