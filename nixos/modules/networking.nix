@@ -6,7 +6,7 @@
     networkmanager.enable = true;
     firewall = {
       enable = true;
-      allowedTCPPorts = [ 22 49153 ];
+      allowedTCPPorts = [ 49152 49153 ];
     };
   };
 }
