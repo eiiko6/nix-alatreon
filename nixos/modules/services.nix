@@ -4,7 +4,7 @@
   services = {
     openssh.enable = true;
     fail2ban = {
-      enabled = true;
+      enable = true;
       maxretry = 5;
       bantime = 600;
     };
