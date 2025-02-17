@@ -10,6 +10,8 @@
     ./modules/minecraft.nix
   ];
 
+  programs.fish.enable = true;
+
   nixpkgs.overlays = [ inputs.nix-minecraft.overlay ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];

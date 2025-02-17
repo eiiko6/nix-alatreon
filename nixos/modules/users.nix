@@ -5,6 +5,7 @@
     strawberries = {
       isNormalUser = true;
       extraGroups = [ "wheel" ];
+      shell = pkgs.fish;
     };
   };
 

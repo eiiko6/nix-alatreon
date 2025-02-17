@@ -12,7 +12,7 @@
     keyMap = "us";
   };
 
-  nixpkgs.config.allowUnfree = true;
+  # nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
     btop
@@ -23,22 +23,17 @@
     fish
     gcc
     git
+    home-manager
     imagemagick
-    kitty
     mupdf
     neovim
-    networkmanagerapplet
     nodejs_22
-    pywal
     rust-analyzer
     starship
     tmux
-    unrar
     unzip
     vim
     wget
-    wl-clipboard
-    wofi
     xfce.thunar
   ];
 }
