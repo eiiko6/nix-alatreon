@@ -6,4 +6,3 @@ This repository contains my NixOS configuration for my server.
 
 - Uses **home-manager** for user configurations.
 - Includes a **Minecraft server** managed via `nix-minecraft`.
-- Firewall allows **SSH (22)** and **Minecraft (49153)**.
