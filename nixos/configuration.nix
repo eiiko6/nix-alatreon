@@ -10,6 +10,8 @@
     ./modules/minecraft.nix
   ];
 
+  nixpkgs.config.allowUnfree = true;
+
   programs.fish.enable = true;
 
   nixpkgs.overlays = [ inputs.nix-minecraft.overlay ];
