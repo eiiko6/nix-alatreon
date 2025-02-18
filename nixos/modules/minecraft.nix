@@ -2,8 +2,8 @@
 let
   modpack = pkgs.fetchPackwizModpack {
     url = "https://raw.githubusercontent.com/eiiko6/pkmsmp/refs/heads/master/pack.toml";
-    packHash = "sha256-ZpaGM7X6+p+TKN85Sd6vX2F9nuGfhUkrx3jcbjL23SA=";
-    manifestHash = "sha256-ZpaGM7X6+p+TKN85Sd6vX2F9nuGfhUkrx3jcbjL23SA=";
+    packHash = "sha256-CGMw68RjxlhnVLlER6PhP0Rx1onB9DFXUVeE2/n3vHE=";
+    manifestHash = "sha256-uiE+ksV0GgIw7R86nev7b3aUDpqfAeVhYifZLgnKg10=";
   };
   mcVersion = modpack.manifest.versions.minecraft;
   fabricVersion = modpack.manifest.versions.fabric;
